@@ -2,7 +2,7 @@ name: Sync Workouts
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch: {}
   repository_dispatch:
     types: [sync-trigger]
